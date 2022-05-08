@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/* font-family: 'Bai Jamjuree', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+
+}
+
+main {
+    font-family: 'Bai Jamjuree', sans-serif;
+
+
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    /* margin-top: 5%; */
+}
+
+.logo {
+    margin-top: 10rem;
+}
+
+h1 {
+    padding: 2rem 0 0 1rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+
+}
+
+.top p {
+    font-weight: 400;
+    padding: 1rem 25rem 0rem 25rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+
+button {
+    padding: 1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+.btn {
+    display: flex;
+    padding: 1rem;
+}
+
+button:hover {
+    border: outset 2px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+
+}
+
+.ios:hover {
+    border-color: hsl(171, 66%, 44%);
+
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    margin-left: 1rem;
+}
+
+.mac:hover {
+    border-color: hsl(233, 100%, 69%);
+
+}
+
+/* ----------------------------------------------------------------------- */
+@media (max-width: 375px) {
+    .top {
+        background-image: url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        width: 23.2rem;
+        height: fit-content;
+
+    }
+
+    .logo {
+        margin-top: 2rem;
+        width: 15%;
+    }
+
+    .top h1 {
+        width: fit-content;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .top p {
+        width: fit-content;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ios,
+    .mac {
+        margin: 0.5rem;
+        width: 20rem;
+    }
+
+}
+
+/* --------------------------------------------------------------- */
+h2 {
+    padding: 2rem 0 0 0rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+
+}
+
+.m-p {
+    font-weight: 400;
+    padding: 1rem 23rem 3rem 23rem;
+    line-height: 1.5;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 8rem 2rem 8rem;
+}
+
+.mid-flex {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+h3 {
+    color: hsl(210, 10%, 33%);
+}
+
+.right p {
+    color: hsl(201, 11%, 66%);
+    padding-top: 0.5rem;
+    line-height: 1.5;
+}
+
+/* /* -------------------------------------------- */
+@media (max-width: 375px) {
+    .mid {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        height: fit-content;
+        text-align: center;
+
+    }
+
+    .mid h2 {
+        padding: 0.5rem;
+
+    }
+
+    .mid-flex {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        height: fit-content;
+
+    }
+
+    .com {
+        display: grid;
+        place-items: center;
+        width: 22rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .com img {
+        width: 100%;
+    }
+
+    .right {
+        padding: 0;
+        margin: 2rem;
+    }
+
+    .m-p {
+        margin: 1rem 1rem 3rem 2rem;
+        padding: 0;
+
+    }
+
+
+}
+
+/* --------------------------------------------- */
+
+.img-devices {
+    display: grid;
+    place-items: center;
+    padding-bottom: 2rem;
+}
+
+.blacklist {
+    text-align: center;
+}
+
+.blacklist p {
+    color: hsl(201, 11%, 66%);
+    padding: 0.5rem 2rem;
+    line-height: 1.5;
+
+}
+
+.bl {
+    display: flex;
+}
+
+.low-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem 3rem 5rem;
+}
+
+.low-flex img {
+    height: 2.6rem;
+    width: fit-content;
+    padding-bottom: 1rem;
+}
+
+.logos {
+    display: flex;
+    padding: 0 5rem 3rem 5rem;
+}
+
+.logos img {
+    padding: 3rem 2.2rem 1rem 2.2rem;
+    height: 3rem;
+}
+
+.btn {
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------------------------------------------------- */
+@media (max-width: 375px) {
+    .acc {
+        display: flex;
+        flex-direction: column;
+        width: 23rem;
+        height: fit-content;
+    }
+
+    .img-devices {
+        display: grid;
+        place-items: center;
+        width: 22rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .img-devices img {
+        width: 100%;
+    }
+
+    .low-flex {
+        display: flex;
+        flex-direction: column;
+        width: 23rem;
+        height: fit-content;
+        padding: 0;
+    }
+
+    .bl {
+        display: flex;
+        flex-direction: column;
+        width: 23rem;
+        height: fit-content;
+    }
+
+    .m-p {
+        margin: 1rem 1rem 3rem 2rem;
+        padding: 0;
+
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logos img {
+        width: 10rem;
+        height: fit-content;
+
+    }
+
+    .last {
+        display: flex;
+        flex-direction: column;
+        width: 23rem;
+        height: fit-content;
+    }
+}
+
+/* -------------------------------------------------------------------- */
+
+footer {
+    margin-top: 5rem;
+    background-color: hsla(202, 11%, 66%, 0.145);
+    display: flex;
+
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 3.5rem 3rem;
+}
+
+li {
+    padding-bottom: 1rem;
+}
+
+li:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+footer img {
+    width: 3.5rem;
+    height: fit-content;
+    padding: 3rem;
+
+}
+
+.icon img {
+    width: 1.5rem;
+    padding: 0;
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+
+.icon img:hover {
+    cursor: pointer;
+}
+
+.icon {
+    padding-left: 25rem;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+@media (max-width: 375px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 23rem;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon {
+        padding: 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .icon img {
+        padding: 0 1rem 0 0;
+    }
+
+}
